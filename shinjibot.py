@@ -279,4 +279,4 @@ for filename in os.listdir('shinjibot_cogs'):
     if filename.endswith('.py'):
         shinji.load_extension(f'shinjibot_cogs.{filename[:-3]}')
 
-shinji.run("OTQyODYxNTEwOTMyMzI0Mzcy.GwJ_JP.8J4Na5lpzDHMrXzxYopd262_3kJ-pZpe44f-zc")
+shinji.run(nope)
